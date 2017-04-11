@@ -1,0 +1,40 @@
+body{
+	touch-action: none;
+	font-family: Roboto thin;
+	background-color: #258b5a;
+	padding: 5px;
+}
+.is-focused{
+  color: #fff;
+}
+.content{
+  padding: 20px;
+}
+.register{
+  color: #fff;
+}
+.settings{
+	float: right;
+}
+.personBlock{
+	margin: 60px 0;
+	color: #fff;
+}
+.personPhoto{
+  width: 50%;
+	border-radius: 50%;
+}
+.personPhoto>.photo{
+  width: 100%; 
+}
+.personName{
+  width: 50%;
+}
+
+.left_news_class{
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 100%;
+  position: absolute;
+  left: -100%;
+}
